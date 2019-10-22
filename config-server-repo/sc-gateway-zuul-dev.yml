@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    user01:
+      path: /user01/**
+      serviceId: sc-test-user01
+    user02:
+      path: /user02/**
+      serviceId: sc-test-user02
